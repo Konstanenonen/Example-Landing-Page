@@ -23,6 +23,10 @@ ul {
 button {
   background-color: #3882F6;
   color: #E5E7EB;
+  border-radius: 7px;
+  padding: 7px 30px;
+  font-size: 18px;
+  font-weight: bold;
 }
 
 /* Hero section */
@@ -54,10 +58,6 @@ button {
 .hero-section button {
   margin-top: 15px;
   border-style: none;
-  border-radius: 7px;
-  padding: 7px 30px;
-  font-size: 18px;
-  font-weight: bold;
 }
 
 .hero-section img {
@@ -138,4 +138,32 @@ button {
 .quote-section h3 {
   color: #1F2937;
   font-size: 22px;
+}
+
+/* Sign up section */
+
+.sign-up-section {
+  padding: 100px 10%;
+}
+
+.sign-up-section .card {
+  background-color: #3882F6;
+  height: 150px;
+  border-radius: 7px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.sign-up-section h3 {
+  color: #F9FAF8;
+  font-size: 22px;
+}
+
+.sign-up-section p {
+  color: #F9FAF8;
+}
+
+.sign-up-section button {
+  border: solid 2px white;
 }
