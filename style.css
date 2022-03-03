@@ -167,3 +167,17 @@ button {
 .sign-up-section button {
   border: solid 2px white;
 }
+
+/* Footer  */
+
+footer {
+  background-color: #1F2937;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer p {
+  color: #F9FAF8;
+}
