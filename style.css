@@ -1,3 +1,5 @@
+/* Common styles for elements */
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -7,14 +9,69 @@
 body {
   display: flex;
   flex-direction: column;
-}
-
-.content-section {
-  width: 80%;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  max-width: 1980px;
   margin: auto;
 }
 
-header {
+ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+button {
+  background-color: #3882F6;
+  color: #E5E7EB;
+}
+
+/* Hero section */
+
+.hero-section {
+  padding: 25px 10% 100px 10%;
+  background-color: #1F2937;
+  font-size: 18px;
+  color: #E5E7EB;
+}
+
+.hero-section h1 {
+  font-size: 48px;
+  font-weight: bolder;
+  color: #F9FAF8;
+}
+
+.hero-section h2 {
+  font-size: 24px;
+  color: #F9FAF8;
+}
+
+.hero-section header {
   display: flex;
   justify-content: space-between;
+  margin-bottom: 100px;
+}
+
+.hero-section button {
+  margin-top: 15px;
+  border-style: none;
+  border-radius: 7px;
+  padding: 7px 30px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.hero-section img {
+  width: 600px;
+  height: auto;
+}
+
+.hero-section .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+}
+
+.hero-section .welcome-section {
+  max-width: 600px;
 }
