@@ -112,3 +112,30 @@ button {
   font-size: 17px;
   color: rgb(73, 73, 73);
 }
+
+/* Quote section */
+
+.quote-section {
+  padding: 100px 10%;
+  background-color: #E5E7EB;
+}
+
+.quote-section .container {
+  max-width: 800px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.quote-section h2 {
+  color: #1F2937;
+  font-size: 36px;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.quote-section h3 {
+  color: #1F2937;
+  font-size: 22px;
+}
